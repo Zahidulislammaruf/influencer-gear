@@ -64,6 +64,14 @@ header h3{
     margin-bottom: 20px;
 
 }
+.sponsor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 
@@ -71,6 +79,7 @@ header h3{
     header{
         flex-direction: column;
         gap: 20px;
+        align-items: center;
         padding: 15px;
     }
     .landing{
@@ -79,8 +88,15 @@ header h3{
         gap: 50px;
         margin: 0 auto;
     }
-    .lading-para{
+    .lading-para, .landing-title{
         padding: 20px;
+    }
+    .sponsor{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px;
     }
     
     
@@ -95,5 +111,14 @@ header h3{
         flex-direction: column;
         gap: 20px;
         padding: 15px;
+    }
+    .sponsor{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px;
+        margin-left: 100px;
     }
 }
