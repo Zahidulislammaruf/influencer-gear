@@ -125,6 +125,35 @@ header h3{
     font-weight: 300;
     padding-left: 17px;
 }
+.featured{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.featured-para{
+    color: #6C6C6C;
+    font-family: Poppins;
+   font-size: 1.5rem;
+   margin-top: 20px;
+   font-weight: 700;
+
+}
+footer img{
+    width: 32px ;
+    height: 32px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #0A0826;
+    color: #FFF;
+    padding: 20px;
+}
 
 
 
@@ -155,6 +184,18 @@ header h3{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 35px;
     }
+    .featured{
+        flex-direction: column;
+    }
+    .featured-img, .featured-para{
+        padding-left: 20px;
+    }
+    .featured-btn{
+        margin-left: 20px;
+    }
+    .featured-img{
+        width: 0 auto;
+    }
     
     
 }
@@ -181,6 +222,14 @@ header h3{
     .box-container{
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
+    }
+    .featured{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .featured-para{
+        margin-top: 20px;
+        font-size: 1rem;
     }
     
 }
